@@ -206,7 +206,7 @@ Ullmann, T., Serfas, K., Büdel, C., Padashi, M., Baumhauer, R., 2019b. Data Pro
 <!-- CONTACT -->
 ## Contact
 
-Johannes Löw - agrisens.datacube@uni-wuerzburg.de
+Johannes Löw - agrisens.datacube@uni-wuerzburg.de </br>
 Steven Hill - eo2cube@gmail.com
 
 Project Link: [https://github.com/eo2cube/s1_processor](https://github.com/eo2cube/s1_processor)
