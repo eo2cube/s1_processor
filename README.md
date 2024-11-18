@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/eo2cube/s1_processor">
     <img src="eo2cube.S1.png" alt="Logo" width="580" height="290">
   </a>
 
