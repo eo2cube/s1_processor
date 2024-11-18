@@ -240,7 +240,7 @@ Project Link: [https://github.com/eo2cube/s1_processor](https://github.com/eo2cu
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: 20210320_VH_VH_CR_false_color_comp_example_banner(1).png
 [ESA SNAP]: https://img.shields.io/badge/ESA%20SNAP-blue?style=for-the-badge
 [ESA SNAP-url]: https://eo4society.esa.int/resources/snap/
 [PyroSAR]: https://img.shields.io/badge/python-pyroSAR-darkorange?style=for-the-badge
