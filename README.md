@@ -80,7 +80,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://eo2cube.org/projects/demmin/)
 
 This processing chain is based on the [pyroSAR](https://github.com/johntruckenbrodt/pyroSAR) package. It is capable of distinguishing between ascending and descending orbit and can handle multiple relative orbits.
 By default, it creates scenes for each selected polarisation and feature (backscatter intensity, InSAR coherence, Dual pol H/a decomposition).
