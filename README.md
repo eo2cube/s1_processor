@@ -98,7 +98,6 @@ Currently, there are still issues with certain projections/ EPSG-codes that SNAP
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![ESA SNAP][ESA SNAP]][ESA SNAP-url]
 * [![PyroSAR][PyroSAR]][PyroSAR-url]
