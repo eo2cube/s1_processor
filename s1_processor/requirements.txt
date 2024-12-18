@@ -1,0 +1,5 @@
+gdal>=3.10.0
+pyroSAR@git+https://github.com/eo2cube/pyroSAR.git
+asf_search>=8.0.1
+geopandas>=1.0.1
+rio-cogeo>=5.4.1
