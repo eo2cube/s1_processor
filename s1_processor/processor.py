@@ -1,6 +1,6 @@
 import logging
-from s1_slc_proc import S1_SLC_proc
-from download_ASF import asf_downloader
+from .s1_slc_proc import S1_SLC_proc
+from .download_ASF import asf_downloader
 import tomli
 
 logging.basicConfig(format="%(levelname)s:%(message)s", level=logging.INFO)
