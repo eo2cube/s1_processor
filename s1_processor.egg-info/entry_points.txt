@@ -1,0 +1,2 @@
+[console_scripts]
+s1_process = s1_processor.cli:cli

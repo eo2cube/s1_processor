@@ -1,2 +1,1 @@
-psycopg-binary
-pyroSAR@ git+https://github.com/johntruckenbrodt/pyroSAR.git
+pyroSAR@ git+https://github.com/eo2cube/pyroSAR.git

@@ -4,5 +4,4 @@ Version: 0.1.0
 Summary: A Sentinel-1 processor based on SNAP and pyroSAR for SLC data producing backscatter intensity and/or InSAR coherence and/or Dual pol H/a decomposition
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
-Requires-Dist: psycopg-binary
-Requires-Dist: pyroSAR@ git+https://github.com/johntruckenbrodt/pyroSAR.git
+Requires-Dist: pyroSAR@ git+https://github.com/eo2cube/pyroSAR.git

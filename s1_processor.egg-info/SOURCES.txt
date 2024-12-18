@@ -13,5 +13,6 @@ s1_processor/s1_slc_proc.py
 s1_processor.egg-info/PKG-INFO
 s1_processor.egg-info/SOURCES.txt
 s1_processor.egg-info/dependency_links.txt
+s1_processor.egg-info/entry_points.txt
 s1_processor.egg-info/requires.txt
 s1_processor.egg-info/top_level.txt

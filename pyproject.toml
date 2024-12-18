@@ -4,4 +4,11 @@ version = "0.1.0"
 description = "A Sentinel-1 processor based on SNAP and pyroSAR for SLC data producing backscatter intensity and/or InSAR coherence and/or Dual pol H/a decomposition"
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = ["psycopg-binary","pyroSAR@git+https://github.com/eo2cube/pyroSAR.git"]
+dependencies = ["pyroSAR@git+https://github.com/eo2cube/pyroSAR.git"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+s1_process = "s1_processor.cli:cli"
