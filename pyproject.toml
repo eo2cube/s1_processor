@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A Sentinel-1 processor based on SNAP and pyroSAR for SLC data producing backscatter intensity and/or InSAR coherence and/or Dual pol H/a decomposition"
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = ["gdal@3.10.0","pyroSAR@git+https://github.com/eo2cube/pyroSAR.git","asf_search@8.0.1", "geopandas@1.0.1","rio-cogeo@5.4.1"]
+dependencies = ["gdal>=3.10.0","pyroSAR@git+https://github.com/eo2cube/pyroSAR.git","asf_search>=8.0.1", "geopandas>=1.0.1","rio-cogeo>=5.4.1"]
 
 [build-system]
 requires = ["setuptools"]

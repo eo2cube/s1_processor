@@ -4,8 +4,8 @@ Version: 0.1.0
 Summary: A Sentinel-1 processor based on SNAP and pyroSAR for SLC data producing backscatter intensity and/or InSAR coherence and/or Dual pol H/a decomposition
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
-Requires-Dist: gdal@ 3.10.0
+Requires-Dist: gdal>=3.10.0
 Requires-Dist: pyroSAR@ git+https://github.com/eo2cube/pyroSAR.git
-Requires-Dist: asf_search@ 8.0.1
-Requires-Dist: geopandas@ 1.0.1
-Requires-Dist: rio-cogeo@ 5.4.1
+Requires-Dist: asf_search>=8.0.1
+Requires-Dist: geopandas>=1.0.1
+Requires-Dist: rio-cogeo>=5.4.1
