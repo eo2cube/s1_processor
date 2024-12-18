@@ -5,8 +5,8 @@ import tomli
 
 logging.basicConfig(format="%(levelname)s:%(message)s", level=logging.INFO)
 
-if __name__ == "__main__":
-    with open("config.toml", "rb") as conf:
+def process(config_file):
+    with open(config_file, "rb") as conf:
         config = tomli.load(conf)
 
     download = {**config["General"], **config["Download"]}
