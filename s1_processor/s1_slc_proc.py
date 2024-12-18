@@ -71,7 +71,7 @@ def S1_SLC_proc(
             infiles=scenes,
             out_dir=outdir_int,
             slice_assembly = slice_assembly,
-            shapefile=shapefile,
+            #shapefile=shapefile,
             t_res=res_int,
             tmpdir=tmpdir,
             t_crs=t_crs,
