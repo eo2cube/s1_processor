@@ -3,7 +3,7 @@ from pyroSAR.snap.auxil import parse_recipe, parse_node, execute
 import os
 import glob
 import datetime
-from auxils import remove
+from .auxils import remove
 # from .auxils import get_burst_geometry, remove
 
 
@@ -109,12 +109,12 @@ def S1_INT_proc(
     """
 
     timea = datetime.datetime.now()
-    
+
     if tpm_format == "ZNAP":
         file_end = ".znap.zip"
     elif tpm_format == "BEAM-DIMAP":
         file_end = ".dim"
-    
+
    ##extract info about files and order them by date
     ##handle length and type of infiles: str or list
     if isinstance(infiles, str):
@@ -293,7 +293,7 @@ def S1_INT_proc(
                 tpm_name = (
                     f"{sensor}_{p}_INT_relOrb_{str(relOrb)}_{unique_dates_info[i]}_{iw}_2TPM")
                 tpm_out = os.path.join(tmpdir, tpm_name)
-                
+
                 workflow = parse_recipe("blank")
                 read = parse_node("Read")
                 read.parameters["file"] = scene
@@ -350,7 +350,7 @@ def S1_INT_proc(
                 ref_pl_ml = ref["beta"]
                 ref_pl = ref["sigma"]
 
-            workflow = parse_recipe("blank")  
+            workflow = parse_recipe("blank")
             read1 = parse_node("Read")
             read1.parameters["file"] = tpm_in[0]
             read.parameters["formatName"] = tpm_format

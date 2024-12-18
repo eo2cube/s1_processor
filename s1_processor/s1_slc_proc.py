@@ -1,10 +1,10 @@
-from auxils import group_by_info
+from .auxils import group_by_info
 from spatialist.ancillary import finder
 import os
 from pathlib import Path
-from s1_coh_proc import S1_coh_proc
-from s1_h2a_proc import S1_HA_proc
-from s1_int_proc import S1_INT_proc
+from .s1_coh_proc import S1_coh_proc
+from .s1_h2a_proc import S1_HA_proc
+from .s1_int_proc import S1_INT_proc
 
 
 def S1_SLC_proc(

@@ -5,7 +5,7 @@ import glob
 import datetime
 import pathlib
 
-from auxils import remove
+from .auxils import remove
 
 
 def S1_coh_proc(
@@ -287,7 +287,7 @@ def S1_coh_proc(
                 else:
                     idx_start = 0
                     idx_stop = len(fps_paired)
-                    
+
                 ## initiate sliceAssembly where the time step consists of more than one scene
                 for fp in range(idx_start, idx_stop):
                     if fp == 0:
@@ -296,7 +296,7 @@ def S1_coh_proc(
                     else:
                         slcAs_name = (f"S1_relOrb_{str(relOrbs[0])}_COH_{date_uniq[fp]}_SLC_ms")
                         slcAs_out = os.path.join(tmpdir, slcAs_name)
-                        
+
                     workflow_slcAs = parse_recipe("blank")
 
                     read1 = parse_node("Read")

@@ -5,7 +5,7 @@ import glob
 import datetime
 import shutil
 
-from auxils import remove
+from .auxils import remove
 
 
 def S1_HA_proc(
